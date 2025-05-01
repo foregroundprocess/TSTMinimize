@@ -1,0 +1,72 @@
+/* Hide main tabs toolbar */
+#TabsToolbar {
+  visibility: collapse;
+}
+/* Sidebar default dimensions */
+:root {
+  --thin-tab-width: 27px;
+  --wide-tab-width: 250px;
+  --uc-toolbar-height: 27px; /* Toolbar height */
+}
+
+#browser {
+  margin-left: var(--thin-tab-width) !important;
+}
+
+/* Sidebar styling adjustments */
+#sidebar {
+  max-width: none !important;
+  min-width: 0px !important;
+}
+
+/* Tree Style Tab-specific adjustments */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
+  position: absolute !important;
+  left: calc(var(--thin-tab-width) * -1) !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  transition: min-width 300ms, max-width 300ms !important;
+  min-width: var(--thin-tab-width) !important;
+  max-width: var(--thin-tab-width) !important;
+  z-index: 3;
+}
+
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover {
+  min-width: var(--wide-tab-width) !important;
+  max-width: var(--wide-tab-width) !important;
+}
+
+/* Hide Tree Style Tab splitter and header */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter,
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none !important;
+}
+
+/* Full screen toolbars */
+#navigator-toolbox[inFullscreen] toolbar:not([collapsed="true"]) {
+  visibility: visible !important;
+}
+/* Set max toolbar height */
+toolbar {
+  max-height: calc(var(--uc-toolbar-height)) !important;
+}
+
+/* Adjust URL bar to stay 5px less than toolbar height */
+#urlbar {
+  min-height: calc(var(--uc-toolbar-height) - 5px) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+#tabbrowser-arrowscrollbox {
+  margin-left: var(--thin-tab-width) !important;
+}
+
+/* Move burger button to the right side of the toolbar */
+#PanelUI-button {
+  order: -2 !important;
+  margin-right: -10px !important;
+}

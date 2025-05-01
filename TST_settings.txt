@@ -1,0 +1,25 @@
+/*Change font size and face */
+.label {
+  font-size: 0.9em;
+  font-family: "Cascadia Mono";
+  font-weight: Normal;
+}
+
+/*reduce left padding for tab titles and icons*/
+tab-item:not([data-child-ids]) tab-twisty{ visibility: collapse !important }
+
+/* Compact tab layout */
+.tab { height: 23px !important; }
+
+tab-item-substance, .after-tabs button, .after-tabs [role="button"] {
+  padding: 0em 0em;
+  padding-right: 0em;
+  padding-left: 0.2em;
+}
+
+/*hide close buttons on tabs*/
+tab-item tab-closebox {
+  display: none;
+}
+
+.PinnedTabsBar { flex-wrap: nowrap!important; }
