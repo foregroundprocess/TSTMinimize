@@ -1,2 +1,4 @@
 # TSTMinimize
 Automatically collapse and expand Tree Style Tab sidebar on mouse hover.
+![TSTMinimize](TSTMinimize.gif)
+
