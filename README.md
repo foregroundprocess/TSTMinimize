@@ -30,10 +30,10 @@ Search for the parameters and set each of them to True:
 - layout.css.backdrop-filter.enabled
 - svg.context-properties.content.enabled
 
-Open Firefox profile directory by clicking Firefox **Menu** button -> **Help** -> **More troubleshoot information** and then clicking the **Open directory** in the **Profile Directory** line.
+Open Firefox profile directory by clicking Firefox **Menu** button -> **Help** -> **More troubleshooting information** and then clicking the **Open directory** in the **Profile Directory** line.
 
 Create subdirectory called **chrome** if it doesnt exist.
 
-Put the **userChrome.css** file into the directory or merge it if already exists (make backup copy).
+Put the **userChrome.css** file into the directory or merge it with already existing file (make backup copy).
 
 Restart Firefox to apply changes.
