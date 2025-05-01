@@ -14,6 +14,7 @@ Scroll down to the **Advanced settings**, expand them and click **Load from File
 Install addons for **Minimize** and **Close** buttons:
 - [Minimize](https://addons.mozilla.org/en-US/firefox/addon/minimize-custom-buttons/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser)
 - [Close](https://addons.mozilla.org/en-US/firefox/addon/close-custom-buttons/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser)
+
 These add-ons work well with dark themes, but may not be well visible on light background. There are other add-ons for the buttons that may work better for you.
 
 
