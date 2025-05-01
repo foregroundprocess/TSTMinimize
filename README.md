@@ -21,8 +21,8 @@ These add-ons may not work well on light background. There are other add-ons for
 # Install
 First enable using **userChrome.css** file if that has not been done yet:
 Open **about:config** page.
-A dialog will warn you, but ignore it, just do it press the I accept the risk! button.
-Search for these and set each of them to True:
+Accept the warning by pressing the **I accept the risk!** button.
+Search for the parameters and set each of them to True:
 - toolkit.legacyUserProfileCustomizations.stylesheets
 - layers.acceleration.force-enabled
 - gfx.webrender.all
@@ -30,7 +30,7 @@ Search for these and set each of them to True:
 - layout.css.backdrop-filter.enabled
 - svg.context-properties.content.enabled
 
-Open Firefox profile directory by clicking **Menu** button -> **Help** -> **More troubleshoot information** and then clicking the **Open directory** in the **Profile Directory** line.
+Open Firefox profile directory by clicking Firefox **Menu** button -> **Help** -> **More troubleshoot information** and then clicking the **Open directory** in the **Profile Directory** line.
 
 Create subdirectory called **chrome** if it doesnt exist.
 
