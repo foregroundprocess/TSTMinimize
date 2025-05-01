@@ -11,6 +11,11 @@ Configure Firefox to give more space to content by hiding Firefox interface elem
 Install Firefox add-on Tree Style Tab. Open add-on properties and select the Photon theme.
 Scroll down to the Advanced settings, expand them and click Load from File button. In the dialog select the file TST_settings.txt
 
+Install addons for Minimize and Close buttons:
+- https://addons.mozilla.org/en-US/firefox/addon/minimize-custom-buttons/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser
+- https://addons.mozilla.org/en-US/firefox/addon/close-custom-buttons/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser
+These add-ons work well with dark themes, but may not be well visible on light background. There are other add-ons for the buttons that may work better for you.
+
 
 # Install
 First enable using userChrome.css file if that has not been done yet:
